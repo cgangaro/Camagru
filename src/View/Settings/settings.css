@@ -1,0 +1,28 @@
+#settingsButtonsPart {
+    display: flex;
+    flex-direction: column;
+}
+
+#settingsButtonsPart button {
+    margin-bottom: 1rem;
+    white-space: normal;
+    height: min-content;
+}
+
+#changeSettingsForm {
+    display: none;
+    margin-bottom: 1rem;
+}
+
+#confirmSettingsButtonsPart {
+    display: none;
+}
+
+#confirmSettingsButtonsPart button {
+    margin-right: 1rem;
+}
+
+#returnerror {
+    display: none;
+    margin-top: 1rem;
+}

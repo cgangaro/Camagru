@@ -1,0 +1,124 @@
+@media only screen and (max-width: 1300px) {
+
+    #navBarForLaptop {
+        display: none;
+    }
+
+    #navBarForPhone {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    #mainMenu {
+        display: flex;
+        height: 150px;
+        width: 100%;
+    }
+
+    #logoLink {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+
+    #logoLink img {
+        height: 80%;
+        width: auto;
+        margin-left: 1rem;
+    }
+
+    #burgerMenu {
+        height: 100%;
+        width: 20%;
+    }
+
+    #burgerMenu i {
+        font-size: 110px;
+        color: #68D2B3;
+    }
+
+    #menuUnrolled {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        padding: 1rem;
+    }
+
+    #menuUnrolled a {
+        font-size: 3.5rem;
+        color: #61bea2;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    #mainMenu {
+        height: 120px;
+    }
+
+    #logoLink img {
+        height: 50%;
+        width: auto;
+        margin-left: 1rem;
+    }
+
+    #burgerMenu i {
+        font-size: 70px;
+        color: #68D2B3;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    #mainMenu {
+        height: 70px;
+    }
+
+    #logoLink img {
+        height: 40%;
+        width: auto;
+        margin-left: 1rem;
+    }
+
+    #burgerMenu i {
+        font-size: 50px;
+        color: #68D2B3;
+    }
+
+    #menuUnrolled {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        padding: 0.5rem;
+    }
+
+    #menuUnrolled a {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1301px) {
+    #navBarForPhone {
+        display: none;
+    }
+
+    #menuUnrolled {
+        display: none;
+    }
+}
+
+.camagruTitle {
+    font-size: 2.5rem;
+    color: #68D2B3;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1300px) {
+    .camagruTitle {
+        margin-left: 1rem;
+    }
+}

@@ -1,0 +1,39 @@
+#signinCard .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#passwordField {
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 750px) {
+    #signinCard .card-content .title {
+        font-size: 2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #signinCard .card-content label {
+        font-size: 1.5rem;
+    }
+
+    #signinCard .card-content input {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #signinCard .card-content button {
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #signinCard .card-content p {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+}

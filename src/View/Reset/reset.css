@@ -1,0 +1,16 @@
+input {
+    margin-bottom: 1rem;
+}
+
+#resetError {
+    display: none;
+    margin-top: 1rem;
+}
+
+#pwdResetSuccessContent {
+    display: none;
+}
+
+#pwdResetContent {
+    display: block;
+}

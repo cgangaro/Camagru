@@ -1,0 +1,157 @@
+#homeGallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #B3CCE6;
+    padding-top: 2vh;
+    padding-bottom: 7.5vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.pictureItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    border-radius: 25px;
+    height: fit-content;
+    padding-top: 0.75rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pictureItem .cardContent {
+    width: 90%;
+}
+
+.pictureItem img {
+    width: 100%;
+    border: 6.5px #68D2B3 solid;
+    border-radius: 25px;
+}
+
+.pictureItem .title {
+    font-size: 1.8rem;
+    text-align: left;
+    margin-bottom: 0.75rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.itemCommentsPart {
+    display: flex;
+    flex-direction: column;
+}
+
+.commentPart {
+    width: 100%;
+    max-height: 20rem;
+    overflow-y: scroll;
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+    background-color: #d8f3dc;
+    border-radius: 25px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: fit-content;
+    max-width: 100%;
+    font-weight: 500;
+    font-size: 1.0rem;
+    margin-bottom: 0.5rem;
+}
+
+.comment p {
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+
+.commentInputDiv {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    background-color: #C1ECC7;
+    border-radius: 25px;
+    margin-top: 0.5rem;
+}
+
+.commentInputDiv input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: #C1ECC7;
+    font-size: 1.0rem;
+    /* margin-top: 0.3rem; */
+    margin-left: 1rem;
+}
+
+.commentInputDiv input:focus {
+    border: none;
+    outline: none;
+}
+
+.commentInputDiv button {
+    height: 3rem;
+    width: 3rem;
+    margin-left: 1rem;
+    border-radius: 25px;
+}
+
+.commentInputDiv i {
+    font-size: 1.4rem;
+}
+
+.likePart {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.likePart button {
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 1rem;
+    border-radius: 25px;
+}
+
+.likeForm i {
+    font-size: 1.4rem;
+}
+
+.errorCommentPart {
+    display: none;
+    color: red;
+    max-width: 100%;
+    margin-top: 0.5rem;
+}
+
+#pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#pagination p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#pagination a {
+    color: white;
+}
+
+#emptyGalleryCard {
+    width: fit-content;
+}

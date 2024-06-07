@@ -1,0 +1,230 @@
+.studioBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* height: 92vh; */
+    width: 100%;
+    overflow: scroll;
+    background-color: #B3CCE6;
+    padding-top: 5vh;
+    padding-bottom: 7.5vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#cameraWaiting {
+    display: flex;
+    justify-content: center;
+}
+
+#cameraWaiting p {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#camera {
+    display: none;
+}
+
+@media only screen and (min-width: 1400px) {
+    .studioBody {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .studioBody {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .studioBody {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+#galleryCard {
+    margin-top: 3rem;
+}
+
+#emptyGallery {
+    font-size: 1.5rem;
+}
+
+.studioBody::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
+#studioCard {
+    min-height: 700px;
+}
+
+#studioCard .title {
+    margin-bottom: 0.5rem;
+}
+
+#studioCard .cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#video {
+    width: 100%;
+    border: 6.5px #68D2B3 solid;
+    border-radius: 25px;
+}
+
+#canvas {
+    display: none;
+    width: 100%;
+    border: 6.5px #68D2B3 solid;
+    border-radius: 25px;
+}
+
+.customCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    height: fit-content;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+#selectFileButton {
+    width: 13rem;
+    height: 5rem;
+    border-radius: 15px;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.studioActionButton {
+    width: 9rem;
+    height: 3.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 430px) {
+    .studioActionButton {
+        width: 7rem;
+        height: 3.0rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+}
+
+.studioButtons {
+    width: 90%;
+    justify-content: center;
+}
+
+#chooseButtons {
+    display: flex;
+}
+
+#uploadButtons {
+    display: none;
+}
+
+#confirmationButtons {
+    display: none;
+}
+
+#uploadFilePart {
+    display: none;
+}
+
+#saveButtons {
+    display: flex;
+}
+
+#filterPart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 500px;
+    margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 700px) {
+    #filterPart {
+        min-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #filterPart {
+        min-width: 300px;
+    }
+}
+
+#filterPart .title {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+#filterGallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.filterGalleryLine {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.filterGalleryLine img {
+    width: 100px;
+    height: 100px;
+    border: 6.5px #68D2B3 solid;
+    border-radius: 25px;
+    transition: all .2s ease-in-out;
+}
+
+.filterGalleryLine img:hover {
+    transform: scale(1.2);
+}
+
+.galleryImage {
+    border: 6.5px #68D2B3 solid;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+}
+
+.imageDivGalleryPerso {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.imageDivGalleryPerso button {
+    background-color: #68D2B3;
+    color: white;
+    border-radius: 25px 25px 0px 0px;
+    border: none;
+    width: 3rem;
+    margin-right: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

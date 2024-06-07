@@ -1,0 +1,30 @@
+body {
+    background-color: #B3CCE6;
+    height: max-content;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.errorMsgDiv {
+    width: 100%;
+}
+
+.errorMsgDiv p {
+    color: red;
+}
+
+.confirmationMsgDiv p {
+    color: green;
+}
+
+.centerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
